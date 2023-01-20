@@ -1,0 +1,40 @@
+.backdrop {
+  width: 100vh;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.company-button {
+  background-color: rgb(224, 224, 224);
+  color: black;
+  width: 20vh;
+  height: 7vh;
+  border-radius: 33vh;
+  font-size: medium;
+  font-weight: 600;
+  border: none;
+  margin-top: 3%;
+}
+.company-button:hover {
+  color: white;
+  background-color: rgb(71, 71, 245);
+  transition: ease-in-out 0.3s;
+}
+.left {
+  flex: 50%;
+  padding-left: 5%;
+  padding-right: 3%;
+}
+.right {
+  flex: 50%;
+  padding-right: 5%;
+}
+.heading {
+  font-size: 6vh;
+}
+.desc {
+  font-size: 2.5vh;
+}
